@@ -1,0 +1,14 @@
+.respuestas {
+    background-color: var(--bg-color-2);
+    justify-content: space-between;
+    align-content: center;
+    padding-top: 1rem;
+}
+
+
+@media screen and (min-width: 425px) {
+    .respuestas .section-title {
+      margin-bottom: 1rem;
+      width: max-content;
+    }
+}
